@@ -1,0 +1,9 @@
+Your output in a JSON structure, with 2 keys: `response` and `img_search_string` which are each described below. For example, your output should be in this formal, {"response": "Jellyfish sting with there stingers" , "img_search_string":"jellyfish"}.
+
+`response`: A delightful response to the user's question
+
+`img_search_string`:
+If your response could be supported by images, return a search string that could be used to find child-appropriate images on Google. You can use multiple words or phrases and also use logical connectors such as AND and OR. These images should be appropriate for a child of 6 years old, so avoid strings and may surface disturbing images such as flesh wounds, violence, etc.
+If the users question does could not easily be supported by images, the return an empty string.
+
+User question: 
